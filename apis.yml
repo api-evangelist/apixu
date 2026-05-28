@@ -1,0 +1,32 @@
+aid: apixu
+name: APIXU
+description: "Weather"
+url: https://www.apixu.com/doc/request.aspx
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Weather"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Weather
+  - Public APIs
+apis:
+  - name: APIXU
+    description: "Weather"
+    humanURL: https://www.apixu.com/doc/request.aspx
+    baseURL: https://www.apixu.com/doc/request.aspx
+    tags:
+      - Weather
+    properties:
+      - type: Documentation
+        url: https://www.apixu.com/doc/request.aspx
+common:
+  - type: Website
+    url: https://www.apixu.com/doc/request.aspx
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
