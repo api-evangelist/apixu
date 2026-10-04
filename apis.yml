@@ -41,7 +41,6 @@ apis:
   - name: APIXU
     description: "Weather"
     humanURL: https://www.apixu.com/doc/request.aspx
-    baseURL: https://www.apixu.com/doc/request.aspx
     tags:
       - Weather
     properties:
